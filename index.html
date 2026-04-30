@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form action="register.php" method="POST" enctype="multipart/form-data">
+
+Name: <input type="text" name="name"><br><br>
+
+Father's Name: <input type="text" name="father"><br><br>
+
+Mother's Name: <input type="text" name="mother"><br><br>
+
+Phone: <input type="text" name="phone"><br><br>
+
+Email: <input type="email" name="email"><br><br>
+
+Gender:
+<input type="radio" name="gender" value="Male"> Male
+<input type="radio" name="gender" value="Female"> Female
+<br><br>
+
+DOB: <input type="date" name="dob"><br><br>
+
+Address: <input type="text" name="address"><br><br>
+
+Blood Group:
+<select name="blood">
+<option>A+</option>
+<option>B+</option>
+<option>O+</option>
+</select><br><br>
+
+Department:
+<input type="radio" name="dept" value="CSE"> CSE
+<input type="radio" name="dept" value="EEE"> EEE
+<br><br>
+
+Course:
+<input type="checkbox" name="course[]" value="JAVA"> JAVA
+<input type="checkbox" name="course[]" value="CSS"> CSS
+<input type="checkbox" name="course[]" value="PYTHON"> PYTHON
+<br><br>
+
+Photo: <input type="file" name="photo"><br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+</body>
+</html>
